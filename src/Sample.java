@@ -4,6 +4,7 @@ public class Sample {
 
     private String phrase;
     private String originText;
+    private String context;
     private TreeMap subjectFrequency;
     private TreeMap styleFrequency;
     private TreeMap genrFrequency;
@@ -11,21 +12,6 @@ public class Sample {
     private short charactersAmount;
 
     private final short maxContextSize = 55;
-
-
-  private  double calculateMeanFrequency(){
-        double meanFreaquency=0.0;
-
-
-        return meanFreaquency;
-    }
-
-   private double calculateStandartDeviation(){
-        double standardDeviation=0.0;
-
-
-        return standardDeviation;
-    }
 
     private Sample[] getSampesFromCorpus(){
         Sample [] samples =null;
@@ -40,9 +26,11 @@ public class Sample {
         return context;
     }
 
+
     private void showSample(){
 
 
     }
+
 
 }
