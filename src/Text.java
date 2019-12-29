@@ -23,11 +23,11 @@ public class Text {
         return 0;
     }
 
-    private String [] getExamplesFromText (String phraseToPhind){
+    private Sample [] getSamplesFromText (String phraseToPhind){
 
-        String foundExamples [] = null;
+        Sample foundSamples [] = null;
 
-        return foundExamples;
+        return foundSamples;
     }
 }
 

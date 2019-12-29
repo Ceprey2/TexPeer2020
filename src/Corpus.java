@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.TreeMap;
 
 public class Corpus {
 
@@ -18,4 +19,11 @@ public class Corpus {
         String dictionary [] = null;
         return dictionary;
     }
+
+    private Sample[] getSampesFromCorpus(){
+        Sample [] samples =null;
+
+        return samples;
+    }
+
 }
