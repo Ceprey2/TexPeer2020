@@ -2,7 +2,7 @@ import java.util.TreeMap;
 
 public class Sample {
 
-    private String phrase;
+    private String phrase; // TODO please add getters for fields
     private String originText;
     private String context;
     private TreeMap subjectFrequency;

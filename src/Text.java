@@ -1,4 +1,4 @@
-import java.util.TreeMap;
+import java.util.Map;
 
 public class Text {
 
@@ -6,24 +6,26 @@ public class Text {
     private String style;
     private String genre;
     private String [] wordsList;
-    private String [] stemssList;
+    private String [] stemsList;
     private String [] uniqueWordsList;
-    private String [] uniqueStemssList;
-    private TreeMap <String, Integer> wordsFrequency;
-    private TreeMap <String, Integer> stemsFrequency;
+    private String [] uniqueStemsList;
+    private Map<Word, Integer> wordsFrequency;
+    private Map<String, Integer> stemsFrequency;
 
 
     private int getTextSizeInCharacters (){
         return 0;
     }
+
     private int getTextSizeInWords (){
         return 0;
     }
+
     private int getTextSizeInSentences (){
         return 0;
     }
 
-    private Sample [] getSamplesFromText (String phraseToPhind){
+    private Sample [] getSamplesFromText (String phraseToFind){
 
         Sample foundSamples [] = null;
 

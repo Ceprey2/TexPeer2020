@@ -1,13 +1,13 @@
 public class Phrase {
 
 
-    private int getPhraseSizeinWords(){
+    private int getPhraseSizeInWords(){
 
         int sizeInWords=0;
 
         return sizeInWords;
     }
-    private int getPhraseSizeinCharacters(){
+    private int getPhraseSizeInCharacters(){
 
         int sizeInCharacters=0;
 

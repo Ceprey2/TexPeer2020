@@ -11,7 +11,7 @@ public class SamplesSet {
     }
 
 
-    private double calculateStandartDeviation(){
+    private double calculateStandardDeviation(){
         double standardDeviation=0.0;
 
 

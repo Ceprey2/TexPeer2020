@@ -13,7 +13,7 @@ final String wordDelimiters = "";
         return wordSizeInCharacters;
     }
 
-    private String getWordStem(){
+    public String getStem(){
 
         String wordStem="";
 
