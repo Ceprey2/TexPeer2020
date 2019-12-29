@@ -3,7 +3,7 @@ import java.util.TreeMap;
 
 public class Corpus {
 
-    private final ArrayList textsList = null;
+    private final Text[] textsList = null;
 
     private final ArrayList subjectsList = null;
     private final ArrayList styleList = null;
@@ -20,10 +20,6 @@ public class Corpus {
         return dictionary;
     }
 
-    private Sample[] getSampesFromCorpus(){
-        Sample [] samples =null;
 
-        return samples;
-    }
 
 }

@@ -14,10 +14,5 @@ public class Phrase {
         return sizeInCharacters;
     }
 
-    private String getContext (){
 
-        String context = "";
-
-        return context;
-    }
 }
